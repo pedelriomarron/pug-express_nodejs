@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+  .jumbotron
+    h1.display-4 Hello, #{functions.capitalizar("pedro del rio marron")}
+    p.lead
+      | Esto es una página web simple, usando las ventajas del motor de plantillas PUG.
+    hr.my-4
+    p
+      | It uses utility classes for typography and spacing to space content out within the larger container.
+    a.btn.btn-primary.btn-lg(href='https://github.com/pedelriomarron', role='button') GitHub
+
